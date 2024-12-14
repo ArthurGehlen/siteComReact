@@ -2,5 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Inter', 'Arial', sans-serif;
+}
+
+body {
+  padding: 50px;
+  background-color: hsl(0, 0%, 95%);
 }

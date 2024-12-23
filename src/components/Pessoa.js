@@ -1,12 +1,12 @@
-import './Pessoa.module.css';
+import style from './Pessoa.module.css';
 
 function Pessoa({ name, age, avatar }) {
 
     return (
-        <div>
+        <div className={style.Card}>
             <img src={avatar} alt={name} />
             <h2>Nome: {name}</h2>
-            <p>age: {age}</p>
+            <p>Idade: {age}</p>
         </div>
     )
 

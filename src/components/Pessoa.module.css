@@ -1,4 +1,4 @@
-div {
+.Card {
     background-color: hsl(0, 0%, 30%);
     width: 14rem;
     height: 20rem;
@@ -9,11 +9,11 @@ div {
     border-radius: 1rem;
 }
 
-div h2 {
+.Card h2 {
     color: hsl(0, 0%, 100%);
 }
 
-div p {
+.Card p {
     background-color: hsl(0, 0%, 70%);
     padding: .4rem;
     font-weight: bold;

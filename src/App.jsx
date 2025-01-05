@@ -21,11 +21,10 @@ function App() {
       <List /> */}
       <h1>Testando Eventos</h1>
 
+      {/* <Evento number={1} /> */}
       <Evento />
-      <Evento number={1} />
       <Form />
     </div>
-
   );
 
 }

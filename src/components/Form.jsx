@@ -15,7 +15,7 @@ function Form() {
     return (
         <div>
             <h1>Meu cadastro:</h1>
-            <form className={styles.form} onSubmit={cadastrar_usuario}>
+            <form onSubmit={cadastrar_usuario}>
                 <div>
                     <label htmlFor="name">Nome:</label>
                     <input 
@@ -23,6 +23,7 @@ function Form() {
                         id="name" 
                         name="name" 
                         placeholder="Digite o seu nome" 
+                        autoComplete='off'
                         // value={name}
                         onChange={(e) => setName(e.target.value)} />
                 </div>

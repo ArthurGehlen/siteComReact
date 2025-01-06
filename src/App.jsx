@@ -5,6 +5,7 @@ import './App.css'
 // import List from './components/List'
 import Evento from './components/Evento'
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 
 function App() {
 
@@ -19,11 +20,13 @@ function App() {
         avatar="https://placehold.co/150" />
     
       <List /> */}
-      <h1>Testando Eventos</h1>
+      {/* <h1>Testando Eventos</h1> */}
 
       {/* <Evento number={1} /> */}
-      <Evento />
-      <Form />
+      {/* <Evento />
+      <Form /> */}
+
+      <Condicional />
     </div>
   );
 
